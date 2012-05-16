@@ -1,0 +1,2 @@
+#r/bin/sh
+condor_q -g -submitter pichotta

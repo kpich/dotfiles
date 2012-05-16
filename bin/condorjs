@@ -1,0 +1,2 @@
+#r/bin/sh
+condor_q -g | egrep '^[0-9]+\.[0-0]+' | wc -l
