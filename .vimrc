@@ -5,6 +5,8 @@ set sw=4 sts=4
 set expandtab
 
 set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 colorscheme desert
 
