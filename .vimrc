@@ -4,6 +4,8 @@ set sw=4 sts=4
 "set sw=2 sts=2
 set expandtab
 
+set hlsearch
+
 colorscheme desert
 
 syntax on
