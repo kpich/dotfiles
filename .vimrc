@@ -12,6 +12,9 @@ colorscheme desert
 
 syntax on
 
+" remove trailing whitespace on save:
+autocmd BufWritePre * :call setline(1, map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
+
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
 " (happens when dropping a file on gvim).
