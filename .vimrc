@@ -12,6 +12,10 @@ colorscheme desert
 
 syntax on
 
+" If i see 'Entering Ex mode. Type "visual" to go to Normal mode.' one more
+" time I think I will lose it:
+map Q <ESC>
+
 " remove trailing whitespace on save:
 autocmd BufWritePre * :call setline(1, map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
