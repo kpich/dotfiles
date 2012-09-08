@@ -6,3 +6,5 @@ HISTCONTROL=ignoredups:ignorespace
 
 export HISTFILESIZE=3000
 export EDITOR='vi'
+
+export PS1="\u@\h:\W\$ "
