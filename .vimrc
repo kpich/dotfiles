@@ -4,6 +4,8 @@ set sw=4 sts=4
 "set sw=2 sts=2
 set expandtab
 
+set ruler
+
 set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
