@@ -1,3 +1,0 @@
-#!/lusr/bin/bash
-
-ps -aef | grep ${USER}

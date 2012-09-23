@@ -1,7 +1,8 @@
 
 alias ll='ls -lh';
-alias rcmd="R CMD BATCH";
 alias dusort='du -s * | sort -n';
+alias psme='ps -aef | grep ${USER}';
+alias rcmd="R CMD BATCH";
 
 HISTCONTROL=ignoredups:ignorespace
 
