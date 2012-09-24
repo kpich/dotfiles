@@ -9,4 +9,6 @@ HISTCONTROL=ignoredups:ignorespace
 export HISTFILESIZE=3000
 export EDITOR='vi'
 
+export GREP_OPTIONS='--color=auto'
+
 export PS1="\u@\h:\W\$ "
