@@ -1,2 +1,2 @@
-#r/bin/sh
-condor_q -g -submitter pichotta
+#/usr/bin/env bash
+condor_q -g -submitter ${USER}
