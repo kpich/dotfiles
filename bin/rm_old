@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+export n=`find . -maxdepth 1 -name "$1" -amin +60 | wc -l`
+while read -p "going to delete $n files. OK? [y/N] > " input; do
+  if [ "$input" == "" ] || [ "$input" == "n" ] || [ "$input" == "N" ]
+  then
+    exit
+  elif [ "$input" == "y" ] || [ "$input" == "Y" ]
+  then
+    find . -maxdepth 1 -name "$1" -amin +60 -exec rm {} \;
+    exit
+  else
+    echo "Please enter 'y' or 'n'"
+  fi
+done
