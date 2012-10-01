@@ -1,2 +1,2 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 condor_q -g | egrep '^[0-9]+\.[0-0]+' | wc -l
