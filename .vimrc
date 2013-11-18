@@ -1,10 +1,15 @@
-set autoindent
-set sw=4 sts=4
 
-"set sw=2 sts=2
 set expandtab
 
 set ruler
+
+filetype indent on
+filetype on
+set autoindent
+set si "smart indent
+
+set sw=2 sts=2
+set expandtab
 
 set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
