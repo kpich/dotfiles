@@ -6,7 +6,7 @@ alias rcmd="R CMD BATCH";
 
 HISTCONTROL=ignoredups:ignorespace
 
-export HISTFILESIZE=3000
+export HISTFILESIZE=10000
 export EDITOR='vi'
 
 export GREP_OPTIONS='--color=auto'
