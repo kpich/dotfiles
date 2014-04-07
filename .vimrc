@@ -3,6 +3,9 @@ set expandtab
 
 set ruler
 
+set textwidth=80
+set colorcolumn=81
+
 filetype indent on
 filetype on
 set autoindent
